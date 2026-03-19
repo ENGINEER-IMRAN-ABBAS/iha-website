@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ISBAH HAASAN AND ASSOCIATE</title>
+   <link rel="stylesheet" href="..\css\style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+<header class="navbar">
+  <div class="logo">
+    <img src="../images/logo.png" alt="Company Logo">
+  </div>
+
+  <nav>
+    <ul class="nav-links">
+      <li><a href="home.html" class="active">HOME</a></li>
+      <li><a href="about.html">ABOUT</a></li>
+
+      <li class="dropdown">
+        <a href="#">SERVICES <i class="fa fa-chevron-down"></i></a>
+        <ul class="dropdown-menu">
+          <li><a href="services.html#architecture">Architecture</a></li>
+          <li><a href="services.html#interior">Interior Design</a></li>
+          <li><a href="services.html#commercial">Commercial</a></li>
+          <li><a href="services.html#residential">Residential</a></li>
+        </ul>
+      </li>
+
+      <li><a href="projects.html">PROJECTS</a></li>
+      <li><a href="team.html">TEAM</a></li>
+      <li><a href="contact.html">CONTACT</a></li>
+    </ul>
+  </nav>
+
+  <div class="menu-toggle" id="menu-toggle">☰</div>
+
+</header>
+
+
+  <!-- ===== HERO SECTION ===== -->
+  <section class="hero">
+    <video autoplay muted loop class="bg-video" id="hero-video">
+      <source src="..\videos\01.mp4" type="video/mp4">
+    </video>
+    <script>
+      // Set playsinline property via JavaScript for browsers that support it
+      document.addEventListener('DOMContentLoaded', function() {
+        var video = document.getElementById('hero-video');
+        if (video) {
+          video.setAttribute('playsinline', '');
+          video.playsInline = true;
+        }
+      });
+    </script>
+
+   
+    <div class="overlay"></div>
+
+    <div class="hero-content">
+      <h1>ISBAH HASSAN & ASSOCIATES </h1>
+      <p>We create architectural masterpieces that transform vision into reality, blending innovation with timeless elegance.</p>
+      <div class="hero-buttons">
+        <a href="Projects.html" class="btn primary">View Projects</a>
+      <a href="contact.html" class="btn secondary">Get In Touch</a>
+      </div>
+    </div>
+  </section>
+<!-- ===== ABOUT SECTION ===== -->
+<section class="about-section" id="about">
+  <h2 class="section-title">About Us</h2>
+    <p class="section-subtitle">isbah Hassan & Associates (Pvt.) Ltd. </p>  
+
+    <div class="about-container">
+
+        <!-- LEFT IMAGE -->
+        <div class="about-image">
+            <img src="..\images\ab1.png" alt="Isbah Hassan">
+        </div>
+
+        <!-- RIGHT CONTENT -->
+        <div class="about-content">
+            <h3>Who is Isbah Hassan?</h3>
+
+            <p>
+               Isbah Hassan & Associates (Pvt.) Ltd. is a leading architectural and interior design firm in Pakistan with over 25 years of excellence.</p>
+<p>We specialize in creating elegant, innovative, and functional spaces that harmonize with their surroundings.
+From high-rise towers to residential communities, campuses to commercial interiors, our work reflects refined vision and technical precision.
+Our approach blends aesthetics with practicality, ensuring comfort, efficiency, and sustainability.</p>
+<p>We prioritize collaboration between client, architect, and specialists to deliver seamless project execution.
+ </p>
+
+            <a href="about.html" class="learn-btn">Learn More</a>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- ===== SERVICES SECTION ===== -->
+<section id="services" class="services-section">
+  <div class="services-colour">
+    <h2 class="section-title ">Our Expertise</h2>
+    <p class="section-subtitle">
+     Comprehensive architectural and design services tailored to your vision.
+    </p>
+    </div>  
+    <div class="services-grid">
+      <a href="services.html" class="service-link">
+        <div class="service-card">
+            <i class="fa-solid fa-drafting-compass fa-2x"></i>
+            <h3>Architecture</h3>
+            <p>Creative and sustainable architectural solutions for any space.</p>
+        </div>
+        </a>
+          <a href="services.html" class="service-link">
+        <div class="service-card">
+            <i class="fa-solid fa-house fa-2x"></i>
+            <h3>Residential</h3>
+            <p>Designing homes that reflect style, comfort, and functionality.</p>
+        </div>
+        </a>
+          <a href="services.html" class="service-link">
+        <div class="service-card">
+            <i class="fa-solid fa-building fa-2x"></i>
+            <h3>Commercial</h3>
+            <p>Innovative commercial spaces for businesses and offices.</p>
+        </div>
+        </a>
+          <a href="services.html" class="service-link">
+        <div class="service-card">
+            <i class="fa-solid fa-hard-hat fa-2x"></i>
+            <h3>Project Management Turnkey</h3>
+            <p>Complete project management services from concept to completion.</p>
+        </div>
+        </a>
+    </div>
+</section>
+ <!-- ===== HOME TEAM SECTION ===== -->
+<section class="home-team">
+  <div class="team-container">
+    <h2 class="section-title">Our Team</h2>
+    <p class="section-subtitle">
+      Meet the experts behind our successful projects
+    </p>
+
+    <div class="team-grid">
+
+      <!-- Member 1 -->
+      <div class="team-card">
+        <img src="..\images\sobia.png" alt="Team Member">
+        <h3>Miss Sobia </h3>
+        <p>company operative manager</p>
+      </div>
+
+      <!-- Member 2 -->
+      <div class="team-card">
+        <img src="..\images\asad.png" alt="Team Member">
+        <h3>syed Asad Gillani</h3>
+        <p>Senior architect </p>
+      </div>
+
+      <!-- Member 3 -->
+      <div class="team-card">
+        <img src="..\images\awais.jpg" alt="Team Member">
+        <h3>Mr .Awais</h3>
+        <p>Senoir Draftperson</p>
+      </div>
+
+      <!-- Member 4 -->
+      <div class="team-card">
+        <img src="..\images\imran abbas.jpeg" alt="Team Member">
+        <h3>Imran Abbas</h3>
+        <p>Software Engineer</p>
+      </div>
+
+    </div>
+
+    <!-- View All Button -->
+    <div class="team-btn">
+      <a href="team.html">View All Team</a>
+    </div>
+  </div>
+</section>
+
+    <!--project section start -->
+   <section class="home-projects">
+  <h2 class="section-title">Our Projects</h2>
+  <p class="section-subtitle">Our recent architectural work</p>
+
+  <!-- Category Buttons -->
+ <!-- FILTER MENU -->
+    <div class="filter-menu">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="commercial">Commercial</button>
+        <button class="filter-btn" data-filter="residential">Residential</button>
+        <button class="filter-btn" data-filter="urban">Urban</button>
+    </div>
+
+
+  <!-- Slider -->
+  <div class="project-slider">
+    <div class="project-track">
+      <div class="project-item" data-category="commercial">
+        <img src="..\images\c1.jpg" alt="Urban Planning">
+        <div class="overlay"><h4>CELESTIA I.T TOWER</h4></div>
+      </div>
+
+      <div class="project-item" data-category="commercial">
+        <img src="..\images\c2.jpg" alt="Commercial">
+        <div class="overlay"><h4>MCB GULBERG ISLAMIC</h4></div>
+      </div>
+
+      <div class="project-item" data-category="commercial">
+        <img src="..\images\c8.jpg" alt="Interior Design">
+        <div class="overlay"><h4>UBL Regional Office</h4></div>
+      </div>
+
+      <div class="project-item" data-category="commercial">
+        <img src="..\images\c10.jpg" alt="Turnkey Project">
+        <div class="overlay"><h4>CANAL HEIGHT</h4></div>
+      </div>
+    <div class="project-item" data-category="commercial">
+        <img src="..\images\c14.jpg" alt="bank alfalah">
+        <div class="overlay"><h4>Bank Alfalah</h4></div>
+      </div>
+
+      <div class="project-item" data-category="commercial">
+        <img src="..\images\c13.jpg" alt="Commercial">
+        <div class="overlay"><h4>Dollman Mall</h4></div>
+      </div>
+      <div class="project-item" data-category="commercial">
+        <img src="..\images\c14.jpg" alt="bank alfalah">
+        <div class="overlay"><h4>Bank Alfalah</h4></div>
+      </div>
+       <div class="project-item" data-category="commercial">
+        <img src="..\images\c21.jpg" alt="City Development">
+        <div class="overlay"><h4>HBL PRESTIGE</h4></div>
+      </div>
+       <div class="project-item" data-category="commercial">
+        <img src="..\images\c24.jpg" alt="City Development">
+        <div class="overlay"><h4>DOLMEN MALL </h4></div>
+      </div>
+       <div class="project-item" data-category="commercial">
+        <img src="..\images\c30.jpg" alt="City Development">
+        <div class="overlay"><h4>BANK ALFALAH</h4></div>
+      </div>
+        <div class="project-item" data-category="commercial">
+        <img src="..\images\c31.jpg" alt="City Development">
+        <div class="overlay"><h4>BANK ALFALAH</h4></div>
+      </div>
+        <div class="project-item" data-category="commercial">
+        <img src="..\images\c35.jpg" alt="City Development">
+        <div class="overlay"><h4>BANK ALFALAH</h4></div>
+      </div>
+        <div class="project-item" data-category="commercial">
+        <img src="..\images\c37.jpg" alt="City Development">
+        <div class="overlay"><h4>BANK ALFALAH</h4></div>
+      </div>
+         <div class="project-item" data-category="commercial">
+        <img src="..\images\c39.jpg" alt="City Development">
+        <div class="overlay"><h4>BANK ALFALAH</h4></div>
+      </div>
+         <div class="project-item" data-category="commercial">
+        <img src="..\images\c40.jpg" alt="City Development">
+        <div class="overlay"><h4>BANK ALFALAH</h4></div>
+      </div>
+         <div class="project-item" data-category="commercial">
+        <img src="..\images\c44.jpg" alt="City Development">
+        <div class="overlay"><h4>BANK ALFALAH</h4></div>
+      </div>
+        <div class="project-item" data-category="commercial">
+        <img src="..\images\c45.jpg" alt="City Development">
+        <div class="overlay"><h4>BANK ALFALAH</h4></div>
+      </div>
+        <div class="project-item" data-category="commercial">
+        <img src="..\images\c46.jpg" alt="City Development">
+        <div class="overlay"><h4>BANK ALFALAH</h4></div>
+      </div>
+     <div class="project-item" data-category="commercial">
+        <img src="..\images\c49.jpg" alt="City Development">
+        <div class="overlay"><h4>BANK ALFALAH</h4></div>
+      </div>
+       <div class="project-item" data-category="commercial">
+        <img src="..\images\c50.jpg" alt="City Development">
+        <div class="overlay"><h4>BANK ALFALAH</h4></div>
+       </div>
+        <div class="project-item" data-category="residential">
+        <img src="..\images\R54.jpg" alt="Residential Project">
+    </div>
+       <div class="project-item" data-category="residential">
+        <img src="..\images\R57.jpg" alt="Office Building">
+
+      </div>
+         <div class="project-item" data-category="residential">
+        <img src="..\images\R58.jpg" alt="Office Building">
+      </div>
+         <div class="project-item" data-category="residential">
+        <img src="..\images\R59.jpg" alt="Office Building">
+      </div>
+         <div class="project-item" data-category="residential">
+        <img src="..\images\R64.jpg" alt="Office Building">
+      </div>
+         <div class="project-item" data-category="residential">
+        <img src="..\images\R67.jpg" alt="Office Building">
+      </div>
+         <div class="project-item" data-category="residential">
+        <img src="..\images\R71.jpg" alt="Office Building">
+      </div>
+          <div class="project-item" data-category="residential">
+        <img src="..\images\R71.jpg" alt="Office Building">
+      </div>
+       <div class="project-item" data-category="urban">
+            <img src="..\images\u1.jpg" alt="">
+            <div class="overlay1"><p>Urban</p></div>
+        </div>
+         <div class="project-item" data-category="urban">
+            <img src="..\images\u2.jpg" alt="">
+            <div class="overlay1"><p>Urban</p></div>
+        </div>
+          <div class="project-item" data-category="urban">
+            <img src="..\images\u3.jpg" alt="">
+            <div class="overlay1"><p>Urban</p></div>
+        </div>
+          <div class="project-item" data-category="urban">
+            <img src="..\images\u6.png" alt="">
+            <div class="overlay1"><p>Urban</p></div>
+        </div>
+          <div class="project-item" data-category="urban">
+            <img src="..\images\u9.jpg" alt="">
+            <div class="overlay1"><p>Urban</p></div>
+        </div>
+  <div class="project-item" data-category="urban">
+            <img src="..\images\u8.jpg" alt="">
+            <div class="overlay1"><p>Urban</p></div>
+        </div>
+          <div class="project-item" data-category="urban">
+            <img src="..\images\u9.jpg" alt="">
+            <div class="overlay1"><p>Urban</p></div>
+        </div>
+          <div class="project-item" data-category="urban">
+            <img src="..\images\u10(1).jpg" alt="">
+            <div class="overlay1"><p>Urban</p></div>
+        </div>
+  <div class="project-item" data-category="urban">
+            <img src="..\images\u11(1).jpg" alt="">
+            <div class="overlay1"><p>Urban</p></div>
+        </div>
+          <div class="project-item" data-category="urban">
+            <img src="..\images\u12(3).jpg" alt="">
+            <div class="overlay1"><p>Urban</p></div>
+        </div>
+  </div>
+  <div class="project-btn">
+    <a href="projects.html">View All Projects</a>
+  </div>
+  <script>
+    const menuToggle = document.getElementById("menu-toggle");
+const navLinks = document.querySelector(".nav-links");
+
+menuToggle.addEventListener("click", () => {
+  navLinks.classList.toggle("show");
+});
+
+const filterBtns = document.querySelectorAll('.filter-btn');
+const cards = document.querySelectorAll('.project-item');
+
+filterBtns.forEach(btn => {
+
+btn.addEventListener('click', () => {
+
+filterBtns.forEach(b => b.classList.remove('active'));
+btn.classList.add('active');
+
+const filter = btn.dataset.filter;
+
+cards.forEach(card => {
+
+if(filter === "all" || card.dataset.category === filter){
+card.style.display = "flex";
+}
+else{
+card.style.display = "none";
+}
+
+});
+
+});
+
+});
+</script>
+</section>
+<section class="home-contact">
+  <div class="contact-container">
+
+    <!-- Left Side Info -->
+    <div class="contact-info">
+      <h2>Contact Us</h2>
+      <p>Let’s discuss your project and bring your ideas to life.</p>
+
+      <div class="info-box">
+        <h4>Office Address</h4>
+        <p>DHA phase 3 sector y 101 , askari bank 1st floor ,lahore ,pakistan </p>
+      </div>
+
+      <div class="info-box">
+        <h4>Phone</h4>
+        <p>+92 423569278990</p>
+      </div>
+
+      <div class="info-box">
+        <h4>Email</h4>
+        <p>admin@isbahhassan.com</p>
+      </div>
+    </div>
+
+    <!-- Right Side Form -->
+    <div class="contact-form">
+      <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <input type="text" placeholder="Subject">
+        <textarea placeholder="Your Message" rows="5"></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+
+  </div>
+</section>
+  <!-- Google Map -->
+  <div class="map-container">
+    <iframe 
+      src="https://www.google.com/maps?libraries=places&amp;key=AIzaSyAkADq7R0xf6ami9YirAM1N-yl7hdnYBhM&q=Isbah+Hassan+%26+Associates+(Pvt.)+Ltd.,+DHA+Phase+3,+Lahore,+Pakistan&output=embed"
+      title="F9FG+MFQ, Sector Y DHA Phase 3, Lahore, Pakistan"
+      allowfullscreen=""
+      loading="lazy">
+    </iframe>
+  </div>
+
+</section>
+</body>
+  <script src="../javascript/script.js"></script>
+</html>
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+  <div class="footer-container">
+
+    <div class="footer-about">
+      <h2>Isbah Hassan & Associates</h2>
+      <p>We design inspiring architectural spaces that blend creativity, innovation, and timeless elegance.</p>
+    </div>
+
+    <div class="footer-links">
+      <h3>Quick Links</h3>
+      <ul class="nav-links">
+        <li><a href="home.html" class="active">HOME</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="services.html">SERVICES</a></li>
+        <li><a href="projects.html">PROJECTS</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-social">
+      <h3>Follow Us</h3>
+      <div class="social-icons">
+        <a href="https://www.facebook.com/isbahhassanassociates101ydha/" target="_blank" rel="noopener noreferrer" title="Visit our Facebook page"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/isbahhassanassociates/?hl=en" target="_blank" rel="noopener noreferrer" title="Visit our Instagram page"><i class="fab fa-instagram"></i></a>
+        <a href="https://pk.linkedin.com/in/isbah-hassan-37a49126" target="_blank" rel="noopener noreferrer" title="Visit our LinkedIn page"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://www.youtube.com/watch?v=GPt0l2ZT9ko" target="_blank" rel="noopener noreferrer" title="Visit our YouTube channel"><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2026 Isbah Hassan & Associates | All Rights Reserved</p>
+  </div>
+</footer>

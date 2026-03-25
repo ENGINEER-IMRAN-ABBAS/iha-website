@@ -5,42 +5,39 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ISBAH HAASAN AND ASSOCIATE</title>
    <link rel="stylesheet" href="..\css\style.css" />
+   <script src="..\javascript\script.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
 </head>
 <body>
 
   <!-- ===== NAVBAR ===== -->
-<header class="navbar">
-  <div class="logo">
-    <img src="../images/logo.png" alt="Company Logo">
-  </div>
+  <header class="navbar">
+    <div class="logo">
+      <img src="..\images\logo.png" alt="Company Logo">
+    </div>
 
-  <nav>
-    <ul class="nav-links">
-      <li><a href="index.html" class="active">HOME</a></li>
-      <li><a href="about.html">ABOUT</a></li>
+    <nav>
+          <ul class="nav-links">
+        <li><a href="home.html" class="active">HOME</a></li>
+        <li><a href="about.html" >ABOUT</a></li>
+       <li class="dropdown">
+   <a href="#">SERVICES <i class="fa fa-chevron-down"></i></a>
+<ul class="dropdown-menu">
+  <li><a href="services.html#architecture">Architecture</a></li>
+  <li><a href="services.html#interior">Interior Design</a></li>
+  <li><a href="services.html#commercial">Commercial</a></li>
+  <li><a href="services.html#residential">Residential</a></li>
+</ul>
+</li> 
+ <li><a href="projects.html">PROJECTS</a></li>
+        <li><a href="team.html">TEAM</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+    </nav>
 
-      <li class="dropdown">
-        <a href="#">SERVICES <i class="fa fa-chevron-down"></i></a>
-        <ul class="dropdown-menu">
-          <li><a href="services.html#architecture">Architecture</a></li>
-          <li><a href="services.html#interior">Interior Design</a></li>
-          <li><a href="services.html#commercial">Commercial</a></li>
-          <li><a href="services.html#residential">Residential</a></li>
-        </ul>
-      </li>
-
-      <li><a href="projects.html">PROJECTS</a></li>
-      <li><a href="team.html">TEAM</a></li>
-      <li><a href="contact.html">CONTACT</a></li>
-    </ul>
-  </nav>
-
-  <div class="menu-toggle" id="menu-toggle">☰</div>
-
-</header>
-
+    <div class="menu-toggle" id="menu-toggle">☰</div>
+  </header>
 
   <!-- ===== HERO SECTION ===== -->
   <section class="hero">
@@ -87,12 +84,10 @@
             <h3>Who is Isbah Hassan?</h3>
 
             <p>
-               Isbah Hassan & Associates (Pvt.) Ltd. is a leading architectural and interior design firm in Pakistan with over 25 years of excellence.</p>
-<p>We specialize in creating elegant, innovative, and functional spaces that harmonize with their surroundings.
-From high-rise towers to residential communities, campuses to commercial interiors, our work reflects refined vision and technical precision.
-Our approach blends aesthetics with practicality, ensuring comfort, efficiency, and sustainability.</p>
-<p>We prioritize collaboration between client, architect, and specialists to deliver seamless project execution.
- </p>
+               For over 25 years, Isbah Hassan & Associates has been shaping distinguished spaces across corporate, educational, retail, and residential sectors.Our team combines technical precision with innovative, functional design, understanding each client’s unique operational and brand requirements before creating spaces that balance efficiency, elegance, and sustainability.
+
+It’s not just our architecture that sets us apart; our clients value the exceptional experience of working with us. We take pride in the trust, confidence, and long-lasting relationships we build, delivering innovative spaces that endure, inspire, and elevate the environments in which people live, work, and learn.
+</p>
 
             <a href="about.html" class="learn-btn">Learn More</a>
         </div>
@@ -104,7 +99,7 @@ Our approach blends aesthetics with practicality, ensuring comfort, efficiency, 
 <!-- ===== SERVICES SECTION ===== -->
 <section id="services" class="services-section">
   <div class="services-colour">
-    <h2 class="section-title ">Our Expertise</h2>
+    <h2 class="section-title ">Our Services</h2>
     <p class="section-subtitle">
      Comprehensive architectural and design services tailored to your vision.
     </p>
@@ -113,29 +108,36 @@ Our approach blends aesthetics with practicality, ensuring comfort, efficiency, 
       <a href="services.html" class="service-link">
         <div class="service-card">
             <i class="fa-solid fa-drafting-compass fa-2x"></i>
-            <h3>Architecture</h3>
+            <h3>Architecture Design services </h3>
             <p>Creative and sustainable architectural solutions for any space.</p>
         </div>
         </a>
           <a href="services.html" class="service-link">
         <div class="service-card">
             <i class="fa-solid fa-house fa-2x"></i>
-            <h3>Residential</h3>
+            <h3>Interior Design services </h3>
             <p>Designing homes that reflect style, comfort, and functionality.</p>
         </div>
         </a>
           <a href="services.html" class="service-link">
         <div class="service-card">
             <i class="fa-solid fa-building fa-2x"></i>
-            <h3>Commercial</h3>
+            <h3>Infrastructure Development </h3>
             <p>Innovative commercial spaces for businesses and offices.</p>
         </div>
         </a>
           <a href="services.html" class="service-link">
         <div class="service-card">
             <i class="fa-solid fa-hard-hat fa-2x"></i>
-            <h3>Project Management Turnkey</h3>
+            <h3>Project Management & Turnkey</h3>
             <p>Complete project management services from concept to completion.</p>
+        </div>
+        </a>
+        <a href="services.html" class="service-link">
+        <div class="service-card">
+            <i class="fa-solid fa-hard-hat fa-2x"></i>
+            <h3>Urban Planning</h3>
+            <p>Creating sustainable and efficient urban environments.</p>
         </div>
         </a>
     </div>
@@ -154,7 +156,7 @@ Our approach blends aesthetics with practicality, ensuring comfort, efficiency, 
       <div class="team-card">
         <img src="..\images\sobia.png" alt="Team Member">
         <h3>Miss Sobia </h3>
-        <p>company operative manager</p>
+        <p>Chief Operating Officer</p>
       </div>
 
       <!-- Member 2 -->
